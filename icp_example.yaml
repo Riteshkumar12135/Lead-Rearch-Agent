@@ -1,0 +1,31 @@
+# Copy this file, edit it to match your actual ICP, then run:
+#   python -m lead_agent.cli "somecompany.com" --icp my_icp.yaml
+# or load it in app.py / batch.py via load_icp_from_yaml().
+
+name: "Mid-market SaaS ICP"
+
+target_industries:
+  - "B2B SaaS"
+  - "fintech"
+  - "martech"
+
+company_size_min: 50
+company_size_max: 1000
+
+target_titles:
+  - "VP Sales"
+  - "Head of Revenue Operations"
+  - "CRO"
+  - "Director of Sales Development"
+
+pain_points_we_solve:
+  - "SDRs spend hours per day researching leads manually"
+  - "generic, unpersonalised cold outreach gets low reply rates"
+  - "no consistent way to score inbound/outbound leads against ICP"
+
+disqualifiers:
+  - "company is a direct competitor in sales-tech"
+  - "fewer than 20 employees"
+  - "no dedicated sales team (e.g. pure self-serve PLG with no SDRs)"
+
+notes: "Prioritise companies that are visibly hiring SDRs/BDRs — strongest signal of budget and need."
